@@ -1,0 +1,394 @@
+{
+  "users": [
+    {
+      "full_name": "param",
+      "email": "param@mail.com",
+      "phone": "1212121212",
+      "password": "122112",
+      "agreement": true,
+      "id": "1",
+      "loan_status": "pending"
+    },
+    {
+      "full_name": "Raj",
+      "email": "raj@gmail.com",
+      "phone": "2121214554",
+      "password": "784512",
+      "agreement": true,
+      "id": "2",
+      "loan_status": "pending"
+    },
+    {
+      "full_name": "Raju Rastogiu",
+      "email": "rajurastogi@gmail.com",
+      "phone": "8956235645",
+      "password": "451245",
+      "agreement": true,
+      "id": "3",
+      "loan_status": "pending"
+    },
+    {
+      "full_name": "Abhishek Tiwarti",
+      "email": "abhishek@gmail.com",
+      "phone": "7845126589",
+      "password": "124512",
+      "agreement": true,
+      "id": "4",
+      "loan_status": "pending"
+    },
+    {
+      "full_name": "amarjeet",
+      "email": "amarjeet@gmail.com",
+      "password": "122345",
+      "phone": "9874562321",
+      "id": "5",
+      "loan_status": "pending"
+    },
+    {
+      "full_name": "Aniee",
+      "email": "anniee@gmail.com",
+      "password": "1223541",
+      "phone": "9874563225",
+      "id": "10",
+      "loan_status": "pending"
+    },
+    {
+      "full_name": "auss",
+      "email": "asuu@gmail.com",
+      "password": "78451212",
+      "phone": "8774512458",
+      "id": "mp2da",
+      "loan_status": "pending"
+    },
+    {
+      "full_name": "Ramesh Yadav",
+      "email": "ramesh@gmail.com",
+      "password": "12236541",
+      "phone": "9856478512",
+      "id": "11",
+      "loan_status": "pending"
+    },
+    {
+      "full_name": "ritesh",
+      "email": "ritesh@gmail.com",
+      "password": "7854215",
+      "phone": "+917854214587",
+      "status": false,
+      "id": "rVhqRog"
+    },
+    {
+      "full_name": "ritesh",
+      "email": "ritesh@gmail.com",
+      "password": "7854215",
+      "phone": "+917854214587",
+      "status": false,
+      "id": "TBxSmcR"
+    },
+    {
+      "full_name": "param",
+      "email": "paramj@gmail.com",
+      "password": "54544545",
+      "phone": "+917845215478",
+      "status": false,
+      "id": "EtjiG2x"
+    },
+    {
+      "full_name": "param",
+      "email": "paramj@gmail.com",
+      "password": "54544545",
+      "phone": "+917845215478",
+      "status": false,
+      "id": "oSfn3Y1"
+    },
+    {
+      "full_name": "param",
+      "email": "paramj@gmail.com",
+      "password": "54544545",
+      "phone": "+917845215478",
+      "status": false,
+      "id": "ZBbigIy"
+    },
+    {
+      "full_name": "ritesh ",
+      "email": "ritesh@gmai.com",
+      "password": "45544554",
+      "phone": "+917854554544",
+      "status": false,
+      "id": "mKfzBPr"
+    },
+    {
+      "full_name": "ritesh",
+      "email": "ritesh@mmm.com",
+      "password": "545454",
+      "phone": "+917845215478",
+      "status": false,
+      "id": "hPV4dj2"
+    },
+    {
+      "full_name": "ritesh",
+      "email": "rite@cmm.xc",
+      "password": "15454212121",
+      "phone": "+917854212111",
+      "status": false,
+      "id": "4nl7-r9"
+    },
+    {
+      "full_name": "aasa",
+      "email": "asa@sa.cc",
+      "password": "87542154",
+      "phone": "+917854214578",
+      "status": false,
+      "id": "bJuLlSN"
+    },
+    {
+      "full_name": "asnans",
+      "email": "sadas@hjah.cnj",
+      "password": "12212121",
+      "phone": "+917854215478",
+      "status": false,
+      "id": "IxmuwJ4"
+    },
+    {
+      "full_name": "rohan",
+      "email": "rohan123@gmail.com",
+      "password": "54455454",
+      "phone": "+917854215478",
+      "status": false,
+      "id": "xTDL8cN"
+    }
+  ],
+  "verify-otp": [
+    {
+      "phone": "7845124587",
+      "otp": "236547",
+      "id": "1"
+    },
+    {
+      "phone": "7845124587",
+      "otp": "236547",
+      "id": "2"
+    },
+    {
+      "phone": "9912457832",
+      "otp": "874522",
+      "id": "3"
+    },
+    {
+      "phone": "8956895689",
+      "otp": "888585",
+      "id": "4"
+    },
+    {
+      "phone": "9874562321",
+      "otp": "874521",
+      "id": "5"
+    },
+    {
+      "phone": "9874562321",
+      "otp": "874521",
+      "id": "6"
+    },
+    {
+      "phone": "9874562321",
+      "otp": "874521",
+      "id": "7"
+    },
+    {
+      "phone": "9874562321",
+      "otp": "874521",
+      "id": "8"
+    },
+    {
+      "phone": "9854785552",
+      "otp": "988852",
+      "id": "9"
+    },
+    {
+      "phone": "9874563225",
+      "otp": "987456",
+      "id": "10"
+    },
+    {
+      "phone": "9854785452",
+      "otp": "223212",
+      "id": "11"
+    },
+    {
+      "phone": "8774512458",
+      "otp": "112541",
+      "id": "mp2da"
+    },
+    {
+      "phone": "9856478512",
+      "otp": "988745",
+      "id": "12"
+    },
+    {
+      "phone": "+917854215478",
+      "otp": "555412",
+      "id": "4zACWbW"
+    }
+  ],
+  "send-opt": [
+    {
+      "phone": "9912457832",
+      "id": "1"
+    },
+    {
+      "phone": "9912457832",
+      "id": "2"
+    },
+    {
+      "phone": "9912457832",
+      "id": "3"
+    },
+    {
+      "phone": "8956895689",
+      "id": "4"
+    },
+    {
+      "phone": "9874562321",
+      "id": "5"
+    },
+    {
+      "phone": "9854785552",
+      "id": "6"
+    },
+    {
+      "phone": "9874563225",
+      "id": "7"
+    },
+    {
+      "phone": "9854785452",
+      "id": "8"
+    },
+    {
+      "phone": "8774512458",
+      "id": "mp2da"
+    },
+    {
+      "phone": "9856478512",
+      "id": "9"
+    },
+    {
+      "phone": "8956235689",
+      "id": "10"
+    },
+    {
+      "phone": "8956235689",
+      "id": "11"
+    },
+    {
+      "phone": "7845124578",
+      "id": "12"
+    },
+    {
+      "phone": "7845124578",
+      "id": "13"
+    },
+    {
+      "phone": "917845124578",
+      "id": "14"
+    },
+    {
+      "phone": "917845124578",
+      "id": "15"
+    },
+    {
+      "phone": "911212122122",
+      "id": "16"
+    },
+    {
+      "phone": "+917854214578",
+      "id": "6iKRbXG"
+    },
+    {
+      "phone": "+917854215478",
+      "id": "ASl-TiY"
+    },
+    {
+      "phone": "+917854215478",
+      "id": "8ij9ZkU"
+    },
+    {
+      "phone": "+917854215478",
+      "id": "3go5cNo"
+    }
+  ],
+  "login": [
+    {
+      "userName": "param@mail.com",
+      "password": "123",
+      "id": "1"
+    },
+    {
+      "email": "param@mail.com",
+      "password": "124211",
+      "id": "2"
+    },
+    {
+      "email": "param@mail.ney",
+      "password": "2112",
+      "id": "3"
+    },
+    {
+      "email": "param@ggits.ney",
+      "password": "12121212",
+      "id": "4"
+    },
+    {
+      "email": "param@ggits.ney",
+      "password": "12121212",
+      "id": "5"
+    },
+    {
+      "email": "param@ggits.ney",
+      "password": "12121212",
+      "id": "6"
+    },
+    {
+      "email": "rohansingh3@gmail.com",
+      "password": "123456",
+      "id": "7"
+    },
+    {
+      "email": "param@ggits.ney",
+      "password": "123122",
+      "id": "8"
+    },
+    {
+      "email": "param@ggits.ney",
+      "password": "3323323",
+      "id": "9"
+    },
+    {
+      "email": "rohansingh3@gmail.com",
+      "password": "xzczxc",
+      "id": "10"
+    },
+    {
+      "email": "rohansingh3@gmail.com",
+      "password": "sadasdas",
+      "id": "11"
+    },
+    {
+      "id": "0154",
+      "phone": "+917854215478"
+    },
+    {
+      "id": "4fd4",
+      "full_name": "param",
+      "email": "param@gmail.com",
+      "password": "54545454",
+      "phone": "+917854215478",
+      "status": false
+    }
+  ],
+  "user-detail": [
+    {
+      "name": "Param Singh",
+      "gender": "Male",
+      "id": "73cc40b3-38d7-4da9-9334-4d4abf1e213f"
+    }
+  ]
+}

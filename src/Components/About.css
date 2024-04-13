@@ -1,0 +1,93 @@
+.about-story {
+  margin-bottom: 7vh;
+}
+
+.about-story p {
+  padding: 5vh 10vw 0vh 10vw;
+  text-align: justify;
+}
+
+.vision-bg {
+  background-color: #f1f7fe;
+  padding: 1.5vw;
+  padding-right: 7vw;
+  border-radius: 40px;
+}
+
+.img-containr-about {
+  margin-bottom: 5vh;
+  width: 90%;
+}
+
+.meet-our-team {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #f1f7fe;
+}
+#meet-2024 {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.cir1meet {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5vw;
+  height: 5vw;
+  border-radius: 50%;
+  background-color: #fff;
+  filter: drop-shadow(0 0 1rem rgb(158, 158, 158));
+}
+
+.blue-cir {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 50%;
+  background-color: #6b94ff;
+}
+
+.join-community-para {
+  text-align: justify;
+  font-size: 1.1vw;
+}
+.download-container {
+  /* width: 100%; */
+  height: 80vh;
+  margin-bottom: -20vh;
+  background-color: #f0f7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+.button-outer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3e3e3e;
+  color: #fff;
+  gap: 1.5vw;
+  border-radius: 10px;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.button-outer button:hover {
+  color: #3e3e3e;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+
+  background-color: #fff;
+}
+.button-outer i {
+  font-size: 2vw;
+}

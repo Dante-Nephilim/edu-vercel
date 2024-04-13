@@ -1,0 +1,182 @@
+.dashboard-main-outer {
+  height: 100vh;
+  background: #fff;
+}
+.dashboard-profile-image {
+  width: 2vw;
+  height: 2vw;
+  background-image: url("../../Assets/Images/user.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+.modal-fullscreen {
+  height: auto;
+}
+.modal-fullscreen .modal-body {
+  overflow-y: initial;
+}
+.dashboard-main-outer p {
+  margin-bottom: initial;
+}
+.dropdown-menu li {
+  position: relative;
+}
+.dropdown-menu .dropdown-submenu {
+  display: none;
+  position: absolute;
+  height: 4vh !important;
+  right: 100%;
+  top: -7px;
+}
+.dropdown-menu .dropdown-submenu-left {
+  right: 100%;
+  left: auto;
+}
+.dropdown-menu > li:hover > .dropdown-submenu {
+  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown-menu > li > a:hover {
+  background: #f1f1f1;
+}
+.offcanvas-body img {
+  width: 2vw;
+  height: 2vw;
+}
+
+/* Form Css */
+.modal-dialog {
+  padding: 2%;
+}
+.modal-dialog .modal-content {
+  border-radius: 8px !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175) !important;
+  background-color: white !important;
+  min-height: 143%;
+}
+
+.modal-content input[type="checkbox"] {
+  width: 1vw;
+  height: 1vw;
+}
+.required:after {
+  content: " *";
+  color: red;
+}
+
+.modal-content .form-input-box {
+  position: relative;
+}
+
+.form-input-box input {
+  height: 6vh !important;
+}
+.form-input-box select {
+  height: 6vh !important;
+}
+
+.form-input-box label {
+  position: absolute;
+  top: -25%;
+  left: 5%;
+  background: #fff;
+  padding: 0vw 0.5vw;
+  font-size: 0.7vw;
+}
+
+@media (max-width: 500px) {
+  .modal-dialog .modal-content {
+    min-height: 170% !important;
+  }
+  .user-navbar {
+    padding: 1vh 4vw !important;
+  }
+  .user-navbar img {
+    width: 50% !important;
+  }
+  .user-name-div {
+    display: none;
+  }
+  .dashboard-profile-image {
+    width: 6vw;
+    height: 6vw;
+  }
+  .user-dashboard-section button {
+    width: fit-content;
+    padding: 0.5vh 1vh !important;
+    font-size: 4vw;
+  }
+  #userSideMenuBar img {
+    width: 50%;
+  }
+  #offcanvasWithBothOptions .offcanvas-body div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4vw !important;
+  }
+  #offcanvasWithBothOptions .offcanvas-body .nav-div-sugg {
+    display: flex !important;
+    flex-direction: row;
+  }
+  #offcanvasWithBothOptions .offcanvas-body div img {
+    width: 12vw;
+    height: 12vw;
+    /* border: 2px solid red !important; */
+  }
+
+  /* Form Css */
+  .form-section-apply .modal-header {
+    display: flex;
+    align-items: flex-start;
+    padding: 0;
+    margin: 2vh 1vw;
+  }
+  .form-section-apply .modal-header h1 {
+    font-size: 4.5vw !important;
+    padding: 0 2vw !important;
+  }
+  .form-section-apply .modal-body form {
+    margin-top: 5vh;
+    padding: 0 !important;
+  }
+  .form-section-apply .modal-body form p {
+    padding: 0 2vw !important;
+  }
+  .form-section-apply .modal-body form h5 {
+    padding: 0 2vw !important;
+  }
+  .form-section-apply .modal-body form .row {
+    padding: 0 2vw !important;
+  }
+
+  .form-section-apply form input {
+    height: 6vh !important;
+    margin: 2vh 0vw !important;
+  }
+  .form-section-apply form select {
+    height: 6vh !important;
+    margin: 2vh 0vw !important;
+  }
+  .form-input-box label {
+    top: 8% !important;
+    font-size: 3.5vw !important;
+  }
+  .checkbox-form-loan {
+    padding: 0 2vw !important;
+    gap: 3vw;
+  }
+  form #uCheckBox {
+    height: 5vw;
+    width: 4vw;
+  }
+  #ApplyForLoanBtn {
+    width: 25%;
+    height: 4vh;
+    font-size: 3.5vw;
+  }
+}

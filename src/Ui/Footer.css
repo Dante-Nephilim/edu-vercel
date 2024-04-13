@@ -1,0 +1,47 @@
+footer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 60vh;
+  padding: 0vw 10vw;
+  background-color: #004c8f;
+  margin-top: 25vh;
+}
+
+footer .footer-div {
+  padding-top: 10vh;
+}
+
+@media (max-width: 500px) {
+  .subscribe-news {
+    margin-top: 5vh;
+    width: 90%;
+  }
+  .left-subscribe {
+    display: none;
+  }
+  .rgt-subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .rgt-subscribe h5 {
+    font-size: 4.5vw;
+    width: 80%;
+  }
+  .cnter-subscribe {
+    width: 80%;
+    padding: 1.3vw;
+  }
+  .cnter-subscribe button {
+    padding: 1vw 2.5vw;
+    font-size: 3vw;
+  }
+  #submitBtn {
+    width: 25%;
+    height: 4vh;
+    font-size: 3.5vw;
+  }
+}

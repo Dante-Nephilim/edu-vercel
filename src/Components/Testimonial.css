@@ -1,0 +1,37 @@
+.section3 {
+  padding: 5vw;
+  width: 100%;
+  min-height: 90vh;
+  background-color: #eaf0fc;
+  margin-bottom: -3vh;
+}
+.team-member {
+  /* width: 100%; */
+  box-shadow: 0px 2px 15px 0.1;
+  /* background-color: #ED232A; */
+  padding: 20px;
+}
+.circle-image {
+  margin-left: 1vw;
+  width: 5vw;
+  height: 5vw; /* Added height to maintain aspect ratio */
+}
+.main-card {
+  /* width: 20vw; */
+  padding: 2vw;
+}
+
+@media (max-width:500px) {
+  .section3{
+    margin-bottom: 0vh;
+
+  }
+  .team-member .row{
+    gap: 3vh;
+  }
+  .circle-image{
+    width: 15vw;
+    height: 15vw;
+    margin-left: 1rem;
+  }
+}

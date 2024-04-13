@@ -1,0 +1,208 @@
+.register-container {
+  padding: 25vh 10vw;
+  width: 100%;
+  min-height: 100vh;
+  margin-bottom: 8vh;
+}
+
+.left-register {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  height: 90vh;
+  padding-right: 5vw;
+}
+
+.main-heading h3 {
+  font-size: 1vw;
+  color: #ed232a;
+}
+
+.main-heading h1 {
+  color: #000;
+}
+
+.left-register label {
+  font-size: 1.2vw;
+}
+
+label sup {
+  color: #ed232a;
+  font-size: 0.8vw;
+  margin-left: 0.3vw;
+}
+
+.left-register input {
+  border: none;
+  outline: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.show-Hide{
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  transform: translateY(-1%);
+}
+.input-group span{
+  border: none;
+  outline: none;
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.left-register #exampleCheck1 {
+  border: 1px solid #aeaeae;
+}
+
+.left-register input::placeholder {
+  color: #cacaca;
+}
+
+.left-register .form-agree {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5vw;
+}
+
+.form-agree label {
+  font-size: 0.9vw;
+  font-weight: 600;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.right-register {
+  gap: 2vh;
+  color: #fff;
+  background-size: 80%;
+  background-position: bottom;
+}
+
+.right-register p {
+  width: 50%;
+  text-align: center;
+}
+.otp-box-outer {
+  background: rgba(0, 0, 0, 0.7);
+  width: 100% !important;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-out;
+}
+
+.otp-box-inner {
+  position: relative;
+  width: 40%;
+  min-height: 45vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5vw;
+  border-radius: 10px;
+  padding: 4vh 0;
+}
+.closeOtpBox{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  font-size: 2vw;
+  cursor: pointer;
+}
+
+.otp-box-inner form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vh;
+}
+.otp-box-inner form input {
+  width: 2.5vw;
+  height: 2.5vw;
+  text-align: center;
+  font-size: 1vw;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.new-user-div {
+  display: none;
+  margin: 2vh 0vh;
+}
+
+@media (max-width: 500px) {
+  .main-heading h3 {
+    font-size: 4vw;
+  }
+  .left-register label {
+    font-size: 4vw;
+  }
+  .left-register #exampleCheck1 {
+    width: 6vw;
+  }
+  .left-register .form-agree {
+    gap: 2vw;
+  }
+  .new-user-div {
+    display: block;
+  }
+  .right-register {
+    display: none !important;
+  }
+
+  /* OTP BOX */
+  .otp-box-inner{
+    width: 90%;
+    height: 70vh;
+    gap: 1.5vh;
+  }
+  .otp-sent-banner{
+    text-align: center;
+    font-size: 5vw !important;
+  }
+  .otp-resend-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vw !important;
+  }
+  .otp-resend-btn{
+    width: 25%;
+    height: 4vh;
+    font-size: 2.5vw;
+    border: 1px solid blue;
+  }
+  .otp-box-inner form{
+    margin: 2vh !important;
+  }
+  .otp-box-inner form input{
+    width: 10vw;
+    height: 10vw;
+    font-size: 5vw;
+  }
+  .otp-box-inner hr{
+    display: none;
+  }
+  .customBtn{
+    width: 25%;
+    height: 5vh;
+    font-size: 4.5vw;
+  }
+}

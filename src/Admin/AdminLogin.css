@@ -1,0 +1,19 @@
+.admin-login-main {
+  width: 100%;
+  height: 100vh;
+  background: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.admin-login-main .login-box{
+    width: 60%;
+    height: 60%;
+    /* background: cyan; */
+    padding: 5vw 20%;
+    color: aliceblue;
+    border: 2px solid rgb(1, 69, 205);
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px 2px rgb(1, 69, 205);
+}

@@ -1,0 +1,22 @@
+.container-strip{
+    width: 100%;
+    overflow: hidden;
+}
+
+.container-strip img{
+    width: 100%;
+}
+
+@media (max-width: 500px){
+    .container-strip{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        overflow: hidden;
+    }
+    
+    .container-strip img{
+        width: 150%;
+    }
+}

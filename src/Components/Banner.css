@@ -1,0 +1,51 @@
+/* .container-fluid{
+    padding-top: 13vh;
+    padding-bottom: 13vh;
+} */
+
+.img-containr{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50px !important;
+    overflow: hidden;
+}
+
+.img-containr1{
+    background-image: url(https://s3-alpha-sig.figma.com/img/3539/d88b/12b6aa0c2fe4b74ad64ceb6bbbbd2e9e?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=R44QWNj419uP-J4Uz3ESj2NPGaaZJ0v4kbjPWkgR5GKTG6oHWOdYlxemT8d86qZN6dCNYRjEdvq~P1W5fa~mLqEsZr7TlS5tf9mGLYN0sM8t6u2oTBghnIB59Y0pPJR1Zu07JJ~qBiDg-04kmQK~y3SeT3abFgx60qu1aan5k5lBl94ZWpRJhpkJGoMHY9OnxWpMNOY2BsFuaNHALM~7RQvxBAw08CA8EpCQ~7ZTLKD8aEkVn2-CSKNw-u6QC~bY8BIDwJGfbHSzu~SVfC7fezODtwIbqGVJsZtohilAlMp9hLYRkbb9WdlsJNmiYVVtgMwpfHp6nZw7yObF764NAg__) !important;
+}
+
+.img-containr2{
+    background-image: url(https://s3-alpha-sig.figma.com/img/caad/121b/582d2588411528828118668be101fa51?Expires=1710720000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=K94lx9NGidrKUEBXfg1GPjxs7fnH~MvNruhHF82kMo~ik69LYhD8m38orUX5Bzy~kcSrYnlh9E0HSUKLIO9QBkWld5uaLlWSHjQ6QQvAVA9GKYyrg3fDM-pt3TF5F-0DBXb2rfFLhrPR8zLSTsQZJMszApkPO-gExGopxv~-wjv4dxJhX246xJMKbM-JeEj0MaWSJpc-a-2nbAx3G4vW~SwgvfQZmI~Zpz-k~6p9Xl1KYlrlchYlVAOvh3NcEhbkeBs3qd7avuXfv3MJKdMqrBAU9H2ANTKApsuzwHNkEwGdNYaw6IZwLsqcLOTTb4KXtBeB0dy8kJr91hRJU4Ed~g__) !important;
+}
+
+.img-containr h1{
+    color: #fff;
+    text-align: center;
+    z-index: 99;
+}
+
+.link-faq{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+.img-containr a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #00000099;
+}

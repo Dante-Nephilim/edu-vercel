@@ -1,0 +1,109 @@
+.login-container {
+  padding: 0vw 10vw;
+  padding-top: 10vh;
+  width: 100%;
+  height: 100vh;
+  margin-bottom: 8vh;
+}
+
+.left-login {
+  display: flex;
+  flex-direction: column;
+  gap: 5vh;
+  height: 90vh;
+  padding-right: 5vw;
+}
+
+.main-heading h3 {
+  font-size: 1vw;
+  color: #ed232a;
+}
+#loginWithPhone{
+  display: none;
+}
+
+.main-heading h1 {
+  color: #000;
+}
+
+.left-login label {
+  font-size: 1.2vw;
+}
+
+label sup {
+  color: #ed232a;
+  font-size: 0.8vw;
+  margin-left: 0.3vw;
+}
+
+.left-login input {
+  border: none;
+  outline: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.left-login #exampleCheck1 {
+  border: 1px solid #aeaeae;
+}
+
+.left-login input::placeholder {
+  color: #cacaca;
+}
+
+.left-login .form-agree {
+  margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 0.5vw;
+}
+
+.form-agree label {
+  font-size: 0.9vw;
+  font-weight: 600;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.right-login {
+  gap: 2vh;
+  color: #fff;
+  background-size: 80%;
+  background-position: bottom;
+}
+
+.right-login p {
+  width: 50%;
+  text-align: center;
+}
+
+@media (max-width: 500px) {
+  .right-login {
+    display: none !important;
+  }
+  .main-heading h3 {
+    font-size: 4vw;
+  }
+  .left-login label {
+    font-size: 4vw !important;
+  }
+  .left-login #exampleCheck1 {
+    width: 5vw;
+    height: 2.5vh;
+  }
+  .left-login .form-agree {
+    gap: 2vw;
+  }
+  .new-user-div {
+    display: block;
+  }
+  #loginBtn, #loginBtnUsingOTP {
+    width: 25%;
+    height: 4vh;
+    font-size: 3.5vw;
+  }
+}

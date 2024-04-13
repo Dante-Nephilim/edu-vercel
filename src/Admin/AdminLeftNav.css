@@ -1,0 +1,37 @@
+.admin-left {
+    width: 15%;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+    box-shadow: -10px 0 20px 1px #fff;
+  }
+  
+  .admin-left .admin-logo {
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .admin-left .admin-nav {
+    width: 100%;
+    min-height: 50vh;
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    padding: 0 1vw;
+  }
+  .admin-nav .card {
+    padding: 1vh 1vw;
+    font-size: 0.9vw;
+    color: #000;
+    margin: 1vh 0vh;
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    text-decoration: none;
+  }
+  .left-active-box {
+    background: #1877f2;
+    color: #fff !important;
+  }

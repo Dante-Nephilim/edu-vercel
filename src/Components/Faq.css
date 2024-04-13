@@ -1,0 +1,39 @@
+
+
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M5 11V13H19V11H5Z'%3E%3C/path%3E%3C/svg%3E") !important;
+}
+
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor'%3E%3Cpath d='M11 11V5H13V11H19V13H13V19H11V13H5V11H11Z'%3E%3C/path%3E%3C/svg%3E") !important;
+}
+
+.faq-collapse{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.faq-button-h{
+    background-color: #f4f4f4;
+}
+
+.faq-ask textarea{
+    background-color: rgb(232, 246, 255);
+    border: none;
+    outline: none;
+}
+
+.faq-ask .btn{
+    border: 1px solid #dc3545;
+}
+
+.faq-ask .btn:focus{
+    outline: none !important;
+    box-shadow: none;
+}
+
+.faq-button-h:focus{
+    outline: none !important;
+    box-shadow: none;
+}

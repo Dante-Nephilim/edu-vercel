@@ -1,0 +1,18 @@
+.blog {
+  width: 100%;
+  min-height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5vh;
+  background-color: #F1F7FE;
+  margin-bottom: -2vh;
+  padding: 10vh 0vw;
+}
+
+.card{
+    border: none !important;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
